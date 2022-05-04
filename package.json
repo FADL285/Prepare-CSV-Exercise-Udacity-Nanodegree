@@ -1,0 +1,37 @@
+{
+  "name": "prepare-csv-exercise-udacity-nanodegree",
+  "version": "1.0.0",
+  "description": "Prepare a CSV Exercise | Backend Development with Node.js Nanodegree from Udacity",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "format": "prettier --config .prettierrc ./src/**/*.ts --write",
+    "lint": "eslint ./src/**/*.ts",
+    "lint:fix": "eslint ./src/**/*.ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FADL285/Prepare-CSV-Exercise-Udacity-Nanodegree.git"
+  },
+  "keywords": [],
+  "author": "Mohamed Fadl <Mohamed.Fadl2852@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FADL285/Prepare-CSV-Exercise-Udacity-Nanodegree/issues"
+  },
+  "homepage": "https://github.com/FADL285/Prepare-CSV-Exercise-Udacity-Nanodegree#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.30",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.16",
+    "prettier": "2.6.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
