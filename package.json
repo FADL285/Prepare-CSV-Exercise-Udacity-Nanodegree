@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/FADL285/Prepare-CSV-Exercise-Udacity-Nanodegree#readme",
   "devDependencies": {
+    "@types/express": "^4.17.13",
     "@types/node": "^17.0.30",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.21.0",
@@ -33,5 +34,9 @@
     "prettier": "2.6.2",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "express": "^4.18.1"
   }
 }

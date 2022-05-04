@@ -1,14 +1,9 @@
-class Person {
-  name: string;
+import express from 'express';
 
-  constructor(name: string) {
-    this.name = name;
-  }
+const app = express();
+const port = process.env.PORT || 3000;
 
-  print(): string {
-    return `Hello ${this.name}`;
-  }
-}
-
-const person = new Person('Fadl');
-person.print();
+// start the Express server
+app.listen(port, () => {
+  console.log(`server started at http://localhost:${port}`);
+});
